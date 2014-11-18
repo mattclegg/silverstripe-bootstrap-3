@@ -1,0 +1,9 @@
+{
+	"name": "mattclegg/silverstripe-bootstrap",
+	"description": "SilverStripe bootstrap theme based on twitter bootstrap 3 (using sass!)",
+	"type": "silverstripe-theme",
+	"require": {
+		"composer/installers": "*",
+		"silverstripe/framework": ">=3.0"
+	}
+}

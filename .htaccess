@@ -1,0 +1,10 @@
+<IfModule mod_rewrite.c>
+	SetEnv HTTP_MOD_REWRITE On
+	RewriteEngine On
+
+	RewriteRule ^\. - [F,L,NC]
+	RewriteRule ^scss(/|$) - [F,L,NC]
+	RewriteRule composer\.(json|lock) - [F,L,NC]
+	RewriteRule config\.rb - [F,L,NC]
+
+</IfModule>
