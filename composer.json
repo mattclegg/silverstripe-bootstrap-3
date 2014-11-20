@@ -1,5 +1,5 @@
 {
-	"name": "mattclegg/silverstripe-bootstrap",
+	"name": "mattclegg/silverstripe-bootstrap-3",
 	"description": "SilverStripe bootstrap theme based on twitter bootstrap 3 (using sass!)",
 	"type": "silverstripe-theme",
 	"require": {
